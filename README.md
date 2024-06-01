@@ -7,9 +7,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Sure! Below is a sample `README.md` file for your project "Horizontal Scrollable Card List":
 
-```markdown
 # Horizontal Scrollable Card List
 
 A React component that displays a list of products in a horizontally scrollable format. Each product is represented by a card that includes an image, title, description, price, and optional tags such as "Ads", "Trending", or "Recommended".
@@ -116,4 +114,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [React](https://reactjs.org/) for the UI library.
 - [Tailwind CSS](https://tailwindcss.com/) for utility-first CSS framework.
 
-```
