@@ -1,12 +1,3 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
 
 # Horizontal Scrollable Card List
 
@@ -59,18 +50,23 @@ A React component that displays a list of products in a horizontally scrollable 
 ```plaintext
 horizontal-scrollable-card-list/
 ├── public/
-│   └── index.html
 ├── src/
 │   ├── components/
-│   │   ├── Card.tsx
-│   │   ├── CardSkeleton.tsx
+│   │   ├── Card.jsx
+│   │   ├── CardSkeleton.jsx
 │   │   ├── HorizontalScrollCardList.jsx
+│   └── App.css
 │   └── App.jsx
-│   └── index.js
+│   └── index.css
+│   └── main.jsx
 ├── .gitignore
+├── index.html
+├── package-lock.json
 ├── package.json
 ├── README.md
-└── yarn.lock
+└── postcss.config.js
+└── tailwind.config.js
+└── vite.config.js
 ```
 
 ## Components
