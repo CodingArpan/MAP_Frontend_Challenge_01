@@ -20,13 +20,13 @@ A React component that displays a list of products in a horizontally scrollable 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/horizontal-scrollable-card-list.git
+   git clone https://github.com/CodingArpan/MAP_Frontend_Challenge_01.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd horizontal-scrollable-card-list
+   cd MAP_Frontend_Challenge_01
    ```
 
 3. Install the dependencies:
@@ -40,10 +40,10 @@ A React component that displays a list of products in a horizontally scrollable 
 1. Start the development server:
 
    ```bash
-   npm start
+   npm run dev
    ```
 
-2. Open your browser and navigate to `http://localhost:3000` to see the component in action.
+2. Open your browser and navigate to `http://localhost:5173` to see the component in action.
 
 ## Project Structure
 
