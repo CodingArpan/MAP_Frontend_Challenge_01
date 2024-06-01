@@ -15,6 +15,10 @@ A React component that displays a list of products in a horizontally scrollable 
 
 ![Demo GIF](path_to_demo_gif.gif)
 
+
+https://github.com/CodingArpan/MAP_Frontend_Challenge_01/assets/89989646/4964afc5-6485-4558-b496-8b8359053fcc
+
+
 ## Installation
 
 1. Clone the repository:
