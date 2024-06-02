@@ -5,7 +5,7 @@ import { CiBookmark } from "react-icons/ci";
 // Card component
 const Card = ({ index, tag, title, image, description, price }) => {
   return (
-    <div className="relative w-64 h-96 rounded-lg overflow-hidden flex flex-col justify-center items-center snap-center group shadow-lg">
+    <div className="relative w-60 md:w-72 lg:w-80 aspect-[4/5] rounded-lg overflow-hidden flex flex-col justify-center items-center snap-center group shadow-lg">
       <div className="absolute z-20 top-2 right-2 flex flex-row gap-2 p-2">
         <div className="w-8 h-8 bg-white rounded-full flex justify-center items-center shadow-xl shadow-zinc-400 hover:transition-all hover:scale-110 cursor-pointer ">
           <IoShareSocial />
@@ -15,10 +15,10 @@ const Card = ({ index, tag, title, image, description, price }) => {
         </div>
       </div>
 
-      <div className="relative w-full max-w-80 h-96">
-        <div className="absolute -z-10 w-80 h-96 bg-center">
+      <div className="relative w-60 md:w-72 lg:w-80  aspect-[4/5]">
+        <div className="absolute -z-10 w-60 md:w-72 lg:w-80  aspect-[4/5] bg-center">
           <img
-            className="w-full group-hover:scale-110 transition-all duration-300 ease-in-out"
+            className="group-hover:scale-110 transition-all duration-300 ease-in-out w-full  aspect-[4/5] object-cover"
             src={image}
             alt={`samplepic${index}`}
           />
